@@ -1,0 +1,31 @@
+git init 初始化项目
+git --version 查看git版本
+git config --global user.name "mm"
+git config --global user.email "email@126.com"
+git add . 添加到暂存盘
+git checkout 文件名 从暂存盘还原文件
+git commit -m "提示文本"  提交到版本库
+git log 查看版本库历史
+git reset --hard 哈希值 当前版本里新指向哪个版本
+git reflog 历史版本
+git rest --hard HEAD^ 回退到上一个版本 可以100^
+
+git  checkout -b dev 创建并切换到dev分支
+git  checkout master 切换的master分支
+git branch mumu 创建一个mumu的分支
+git branch 查看分支
+git merge dev 把dev分支合并到当前分支
+
+git项目主页
+本地
+git checkout -b gh-pages
+删除其他的内容
+添加 index.html about.html...
+
+git add . 添加到暂存盘
+git commit -m "website" 提交到版本
+git push -u origin gh-pages 上传服务器
+网上
+settings
+->GitHub Pages
+https://zenmummu.git.io/testgit/
